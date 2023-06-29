@@ -248,4 +248,65 @@ footer{
     display: flex;
     flex-direction: column;
   }
+
+  .logo{
+    width:25%;
+  }
+
+  .TextHome p {
+    font-size: 50px;
+    margin: 20px;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+  body{
+    overflow: auto;
+  }
+
+  .TextHome p {
+    font-size: 50px;
+    margin: 20px;
+  }
+
+  .Home{
+    flex-direction: column;
+    padding-top:70px;
+    padding-bottom:70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo{
+    width:25%;
+  }
+
+  .TextHome p {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .TextHome{
+    margin:0;
+    width:100%;
+  }
+
+  .Home{
+    flex-direction: column;
+    padding-top:250px;
+    padding-bottom:70px;
+    text-align: center;
+  }
+
+  .onglet{
+    flex-direction: column;
+  }
+
+  .NavBar ul {
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 }
