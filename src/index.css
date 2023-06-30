@@ -498,6 +498,7 @@ body, html {
 
 .ProgrammingLangage .text {
   color: white;
+  text-align: center;
   font-size: 24px;
   font-weight: bold;
   opacity: 1;
@@ -794,7 +795,6 @@ footer{
 
   .Home{
     flex-direction: column;
-    padding-top:250px;
     padding-bottom:70px;
     text-align: center;
   }
@@ -812,7 +812,6 @@ footer{
   }
 
   .About{
-    margin-top:120px;
     margin-left:40px;
     margin-right:40px;
     display: flex;
@@ -834,5 +833,15 @@ footer{
   .Info{
     margin-left:0;
     margin-right:0;
+  }
+
+  .mainAbout{
+    margin-top:40px;
+  }
+
+  .NavBar{
+    position: static; /* Retour à la position relative */
+    backdrop-filter: none; /* Suppression du flou d'arrière-plan */
+    transition: none; /* Suppression de la transition */
   }
 }
