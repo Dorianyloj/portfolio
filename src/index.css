@@ -780,7 +780,8 @@ footer{
 
 @media (max-width: 767px) {
   .logo{
-    width:25%;
+    width:40%;
+    margin-left:0;
   }
 
   .TextHome p {
@@ -833,6 +834,10 @@ footer{
   .Info{
     margin-left:0;
     margin-right:0;
+  }
+
+  .Info ul li{
+    font-size: 19px;
   }
 
   .mainAbout{
