@@ -31,8 +31,8 @@ export default function NavigationBar() {
                     <li><a href="\"><img className="logo" src={imageUrl} alt=""></img></a></li>
                     <div className="onglet">
                         <li><a href="/about">About</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="/project">Projects</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </div>
                 </ul>
 
