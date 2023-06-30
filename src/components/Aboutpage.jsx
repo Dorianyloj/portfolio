@@ -41,7 +41,19 @@ export default function Homepage(){
                         <a href="https://www.php.net/docs.php" target="_blank"><img src="https://i.ibb.co/jMxV44R/php-1.png" alt=""/></a>
                     </div>
                     <div className="CV">
-                        <button><a href="C:\Users\doria\Desktop\Portfolio\git_pf\portfolio\src\assets\CV_Dorian_Joly_Illkirch.pdf" download="CV_Dorian_Joly_Illkirch.pdf">oiyuoiyuo</a></button>
+                        <form action="https://drive.google.com/file/d/1JSu9sICFJrt2Npkwl8JHyuFwzVDuyJOh/view?usp=sharing" method="get" target="_blank">
+                            <button className="btn" type="submit">
+                                <strong>Curriculum Vitae</strong>
+                                <div id="container-stars">
+                                    <div id="stars"></div>
+                                </div>
+
+                                <div id="glow">
+                                    <div className="circle"></div>
+                                    <div className="circle"></div>
+                                </div>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>

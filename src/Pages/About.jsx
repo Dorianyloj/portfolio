@@ -1,16 +1,16 @@
 import React from 'react'
 import NavBar from '../components/NavigationBar'
-import About from '../components/Aboutpage'
+import Aboutpage from '../components/Aboutpage'
 
-function Home() {
+function About() {
     return (
         <div className="Aboutpage">
             <NavBar />
             <div className="mainAbout">
-                <About/>
+                <Aboutpage/>
             </div>
         </div>
     )
 }
 
-export default Home
+export default About
