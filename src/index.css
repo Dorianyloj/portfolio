@@ -714,147 +714,6 @@ footer{
 
 }
 
-/*====SCROLL BAR====*/
-
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: #01ABFF;
-}
-
-/* Couleur de fond du curseur de défilement */
-::-webkit-scrollbar-thumb {
-  background-color: #888;
-  border-radius: 5px;
-  opacity:0.1;
-}
-
-/* Couleur de fond du curseur de défilement au survol */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
-}
-
-/*====MEDIA QUERIES====*/
-
-@media(min-width: 1450px) and (max-width: 1650px){
-  .ProgrammingLangage img {
-    width: 70px;
-  }
-}
-@media(min-width: 768px) and (max-width: 1450px)
-{
-  body{
-    overflow: auto;
-  }
-
-  .About{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo{
-    width:25%;
-  }
-
-  .TextHome p {
-    font-size: 50px;
-    margin: 20px;
-  }
-}
-
-@media (min-width : 768px) and (max-width : 1024px) {
-  body{
-    overflow: auto;
-  }
-
-  .TextHome p {
-    font-size: 50px;
-    margin: 20px;
-  }
-
-  .Home{
-    flex-direction: column;
-    padding-top:70px;
-    padding-bottom:70px;
-  }
-}
-
-@media (max-width: 767px) {
-  .logo{
-    width:40%;
-    margin-left:0;
-  }
-
-  .TextHome p {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .TextHome{
-    margin:0;
-    width:100%;
-  }
-
-  .Home{
-    flex-direction: column;
-    padding-bottom:70px;
-    text-align: center;
-  }
-
-  .onglet{
-    flex-direction: column;
-  }
-
-  .NavBar ul {
-    flex-direction: column;
-    justify-items: center;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-  }
-
-  .About{
-    margin-left:40px;
-    margin-right:40px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .ProgrammingLangage img {
-    width: 70px;
-  }
-
-  .ProgrammingLangage {
-    flex-wrap: wrap;
-  }
-
-  .Skills{
-    margin:0;
-  }
-
-  .Info{
-    margin-left:0;
-    margin-right:0;
-  }
-
-  .Info ul li{
-    font-size: 19px;
-  }
-
-  .mainAbout{
-    margin-top:40px;
-  }
-
-  .NavBar{
-    position: static; /* Retour à la position relative */
-    backdrop-filter: none; /* Suppression du flou d'arrière-plan */
-    transition: none; /* Suppression de la transition */
-  }
-
-  .Contact{
-    padding: 0;
-  }
-}
-
 .Cards{
   display:flex;
   justify-content: space-between;
@@ -1062,3 +921,169 @@ footer{
   background-color: #fff;
   border-color: #fff;
 }
+
+
+/*====SCROLL BAR====*/
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #01ABFF;
+}
+
+/* Couleur de fond du curseur de défilement */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+  opacity:0.1;
+}
+
+/* Couleur de fond du curseur de défilement au survol */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/*====MEDIA QUERIES====*/
+
+@media(min-width: 1450px) and (max-width: 1650px){
+  .ProgrammingLangage img {
+    width: 70px;
+  }
+}
+@media(min-width: 768px) and (max-width: 1450px)
+{
+  body{
+    overflow: auto;
+  }
+
+  .About{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo{
+    width:25%;
+  }
+
+  .TextHome p {
+    font-size: 50px;
+    margin: 20px;
+  }
+
+  .Cards{
+    justify-content: space-around;
+    margin:20px;
+  }
+
+  .myCard{
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+  body{
+    overflow: auto;
+  }
+
+  .TextHome p {
+    font-size: 50px;
+    margin: 20px;
+  }
+
+  .Home{
+    flex-direction: column;
+    padding-top:70px;
+    padding-bottom:70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo{
+    width:40%;
+    margin-left:0;
+  }
+
+  .TextHome p {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .TextHome{
+    margin:0;
+    width:100%;
+  }
+
+  .Home{
+    flex-direction: column;
+    padding-bottom:70px;
+    text-align: center;
+  }
+
+  .onglet{
+    flex-direction: column;
+  }
+
+  .NavBar ul {
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .About{
+    margin-left:40px;
+    margin-right:40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ProgrammingLangage img {
+    width: 70px;
+  }
+
+  .ProgrammingLangage {
+    flex-wrap: wrap;
+  }
+
+  .Skills{
+    margin:0;
+  }
+
+  .Info{
+    margin-left:0;
+    margin-right:0;
+  }
+
+  .Info ul li{
+    font-size: 19px;
+  }
+
+  .mainAbout{
+    margin-top:40px;
+  }
+
+  .NavBar{
+    position: static; /* Retour à la position relative */
+    backdrop-filter: none; /* Suppression du flou d'arrière-plan */
+    transition: none; /* Suppression de la transition */
+  }
+
+  .Contact{
+    padding: 50px;
+  }
+
+  .Cards{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top:50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .myCard{
+    padding-bottom: 70px;
+  }
+}
+
